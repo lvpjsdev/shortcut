@@ -1,0 +1,40 @@
+.container {
+  min-height: 44px;
+  min-width: 180px;
+  border: 1.5px solid #d1d7e0;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px 12px 5px 12px;
+  transition: border 0.15s;
+  background: #f8f9fa;
+}
+
+.containerFocused {
+  border: 1.5px solid #3182f7;
+}
+
+.chip {
+  display: inline-block;
+  padding: 2px 10px;
+  margin-right: 6px;
+  margin-bottom: 2px;
+  border-radius: 14px;
+  background: #e0e4ea;
+  color: #495060;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  user-select: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.placeholder {
+  color: #b0b7c3;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
